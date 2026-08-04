@@ -2,7 +2,14 @@ values = [1, 14, 9, 7, 2, 11, 0]
 target = int(input("Digite o valor do orçamento: "))
 
 def two_values(values, target):
+    memoria = {}
     for i in range(len(values)):
-        memoria = {}
-        resto = target - values[i]
-        memoria[values[i]] = i
+        if target - values[i] in memoria:
+            print(f"Valores encontrados! {values[i]} + {target - values[i]} = {target}, os index deles são respectivamente {i} e {memoria[target - values[i]]}")
+            return (values[i], target - values[i])
+        else:
+            memoria[values[i]] = i
+            print(f"{values[i]} foi adicionado à memória.")
+    print("Valores não encontrados.")
+
+two_values(values, target)
