@@ -135,13 +135,13 @@ challenge-001-two-values
 Clone o repositório:
 
 ```bash
-git clone https://github.com/Fermunizs/javascript-playground.git
+git clone https://github.com/Fermunizs/python-playground.git
 ```
 
 Acesse a pasta do desafio:
 
 ```bash
-cd challenges/challenge-001-two-values
+cd challenges/two-sum
 ```
 
 Execute uma das soluções:
