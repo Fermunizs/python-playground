@@ -1,4 +1,4 @@
-# Challenge #001 — Encontrando Dois Valores que Formam uma Soma
+# Encontrando Dois Valores que Formam uma Soma
 
 <p align="left">
     <img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
